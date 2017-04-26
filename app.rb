@@ -1,6 +1,5 @@
 require 'sinatra/base'
 
-
 class Battle < Sinatra::Base
 
   configure do
@@ -23,8 +22,13 @@ class Battle < Sinatra::Base
   get '/play' do
     @player_one = session[:player_one]
     @player_two = session[:player_two]
-
+    p @player_two
     erb(:play)
   end
 
+  get '/attack' do
+    @p_one = session[:player_one]
+    @p_two = session[:player_two]
+    erb(:attack)
+  end
 end
