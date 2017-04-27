@@ -1,7 +1,10 @@
-<h1> <%= @player_one %> vs <%= @player_two %> - WWE Titel</h1>
+<h1 align="center">WWE</h1>
+<h1 align="center"> <%= @player_one %> vs <%= @player_two %></h1>
+
+
+<h3> <%= @player_one %>: <%= @player_one_points %> HP</h3>
+<h3> <%= @player_two %>: <%= @player_two_points %> HP</h3>
 
 <form action="/attack">
   <input type="submit" value="Attack">
 </form>
-
-<p> 60/60 HP </p>
