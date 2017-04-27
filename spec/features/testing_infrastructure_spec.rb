@@ -2,7 +2,7 @@ feature 'Battle game' do
 
   scenario 'entering players' do
     sign_in_and_play
-    expect(page).to have_content('JEREMY vs ADAM - WWE Titel')
+    expect(page).to have_content('Jeremy vs Adam - WWE Titel')
   end
 
   scenario 'player two HP points' do
