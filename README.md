@@ -1,7 +1,7 @@
 # WWE Battle
 
 Battle of the best!
-Basic battle game built using Ruby, Sinatra and testing using Capybara. 
+Basic battle game built using Ruby, Sinatra and testing using Capybara and RSpec. 
 
 ## How to run web application:
 
